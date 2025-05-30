@@ -11,21 +11,29 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url("vOJsqkP.jpg") no-repeat;
+    background-size: cover;
+    opacity: 2;
 }
 
+
 .container{
-    height: 400px;
+    height: 390px;
     width: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 2px solid black;
+    border: 2px solid white;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 20px white;
 }
 
 h2{
     margin-bottom: 30px;
     font-size: 30px;
+    color: white;
 }
 
 /* INPUT SECTION */
@@ -50,9 +58,12 @@ h2{
     margin-bottom: 10px;
     align-items: center;
     border-radius: 10px;
-    border: 2px solid black;
+    border: 2px solid white;
 }
 
+.icon{
+    color: white;
+}
 
 .input input{
     height: 100%;
@@ -61,6 +72,12 @@ h2{
     border: none;
     outline: none;
     padding-left: 9px;
+    color: white;
+    font-size: 15px;
+}
+
+.input input::placeholder{
+    color: rgb(155, 154, 154);
 }
 
 
@@ -78,6 +95,7 @@ h2{
 
 .rem-for label{
     font-weight: bold;
+    color: white;
 }
 
  .rem-for a{
@@ -92,4 +110,22 @@ button{
     font-size: 21px;
     font-weight: bold;
     margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+/* DON'T HAVE ACCT SECTION */
+p{
+    font-weight: bold;
+    padding-right: 2px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(199, 248, 232);
+    padding-left: 5px;
+
+    &:hover{
+     text-decoration: underline;
+    }
 }
