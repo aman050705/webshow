@@ -12,3 +12,51 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+.container{
+    height: 400px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+h2{
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+
+.int{
+    
+    height: 100px;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.input{
+    width: 90%;
+    height: 40px;
+    padding-left: 8px;
+    
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 10px;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+
+.input input{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding-left: 9px;
+}
