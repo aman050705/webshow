@@ -24,16 +24,18 @@ body{
 }
 
 h2{
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     font-size: 30px;
 }
+
+/* INPUT SECTION */
 
 
 .int{
     
     height: 100px;
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     margin-left: 20px;
 }
 
@@ -59,4 +61,35 @@ h2{
     border: none;
     outline: none;
     padding-left: 9px;
+}
+
+
+/* REM-FOR SECTION */
+
+.rem-for{
+    font-size: 15px;
+    margin-bottom: 20PX;
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.rem-for label{
+    font-weight: bold;
+}
+
+ .rem-for a{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* BUTTON */
+button{
+    width: 90%;
+    height: 40px;
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
